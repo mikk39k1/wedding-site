@@ -3,9 +3,9 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div style={{
-      backgroundImage: "url('/images/bryllupsblomst.jpg')",
+      backgroundImage: "url('/images/bryllupsblomst.png')",
       backgroundSize: 'cover',
-      backgroundPosition: '70% 10%',
+      backgroundPosition: '78% 10%',
       backgroundRepeat: 'no-repeat',
     }} 
     className="relative h-screen w-full flex flex-col items-center justify-center bg-[#fffefa]">
@@ -16,7 +16,7 @@ export default function Home() {
         <p className="text-right text-small mb-8 text-white mr-2">Mere info kommer snart</p>
       </div>
 
-      {/* <Image src="/images/bryllupsblomst.jpg" width={300} height={300} alt="Bryllupsblomst" /> */}
+      {/* <Image src="/images/bryllupsblomst.png" width={300} height={300} alt="Bryllupsblomst" /> */}
     </div>
   );
 }
