@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
     <div style={{
@@ -8,7 +6,7 @@ export default function Home() {
       backgroundPosition: '78% 10%',
       backgroundRepeat: 'no-repeat',
     }} 
-    className="relative h-screen w-full flex flex-col items-center justify-center bg-[#fffefa]">
+    className="relative h-screen w-full flex flex-col items-center justify-center bg-black">
 
       <div className="absolute bottom-1/5 right-4 flex flex-col items-end justify-center">
         <h1 className="text-4xl font-light text-right text-white">LISE & MIKKEL</h1>
