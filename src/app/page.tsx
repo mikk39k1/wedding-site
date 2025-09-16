@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div style={{
-      backgroundImage: "url('/images/bryllupsblomst.png')",
+      backgroundImage: "url('/images/bryllupsblomst-new.png')",
       backgroundSize: 'cover',
       backgroundPosition: '78% 10%',
       backgroundRepeat: 'no-repeat',
